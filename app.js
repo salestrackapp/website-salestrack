@@ -28,7 +28,7 @@
     button.disabled=true;form.setAttribute('aria-busy','true');status.textContent='Enviando seu pedido…';
     const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),30000);
     try{
-      const response=await fetch('https://formsubmit.co/ajax/andre.kachan@salestrack.com.br',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(payload),signal:controller.signal});
+      const response=await fetch('/api/lead',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(payload),signal:controller.signal});
       const result=await response.json();
       if(!response.ok||!(result.success===true||result.success==='true'))throw new Error('Envio não confirmado');
       window.location.assign(new URL('obrigado.html',location.href).href);

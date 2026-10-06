@@ -17,7 +17,26 @@
   const tabs=qa('[data-topic]');tabs.forEach((b,i)=>{b.addEventListener('click',()=>selectTopic(b.dataset.topic));b.addEventListener('keydown',e=>{let n=i;if(e.key==='ArrowRight'||e.key==='ArrowDown')n=(i+1)%tabs.length;else if(e.key==='ArrowLeft'||e.key==='ArrowUp')n=(i+tabs.length-1)%tabs.length;else if(e.key==='Home')n=0;else if(e.key==='End')n=tabs.length-1;else return;e.preventDefault();selectTopic(tabs[n].dataset.topic,true);});});
   q('#explore-cta')?.addEventListener('click',()=>{mode.value=topics[currentTopic].mode;const need=q('#need');if(!need.value)need.value=topics[currentTopic].title.replaceAll('“','').replaceAll('”','').replaceAll('\n',' ');});
   if(matchMedia('(pointer:fine)').matches)qa('[data-tilt]').forEach(card=>{card.addEventListener('pointermove',e=>{if(paused)return;const r=card.getBoundingClientRect();card.style.transform=`rotateX(${-(e.clientY-r.top-r.height/2)/r.height*5}deg) rotateY(${(e.clientX-r.left-r.width/2)/r.width*6}deg)`});card.addEventListener('pointerleave',()=>{card.style.transform=''});});
-  const form=q('#lead-form');form?.addEventListener('submit',e=>{const name=q('#name'),need=q('#need');name.setCustomValidity(name.value.trim()?'':'Informe seu nome.');need.setCustomValidity(need.value.trim().length>=10?'':'Conte sua necessidade em pelo menos 10 caracteres.');if(!form.reportValidity()){e.preventDefault();return;}form.querySelector('[name="_url"]').value=location.origin+location.pathname;q('#form-status').textContent='Você continuará para a verificação e confirmação do envio por e-mail.';});
+  const form=q('#lead-form');form?.addEventListener('submit',async e=>{
+    e.preventDefault();
+    const name=q('#name'),need=q('#need'),status=q('#form-status'),button=form.querySelector('[type="submit"]');
+    name.setCustomValidity(name.value.trim()?'':'Informe seu nome.');
+    need.setCustomValidity(need.value.trim().length>=10?'':'Conte sua necessidade em pelo menos 10 caracteres.');
+    if(!form.reportValidity()||button.disabled)return;
+    form.querySelector('[name="_url"]').value=location.origin+location.pathname;
+    const payload=Object.fromEntries(new FormData(form));delete payload._next;
+    button.disabled=true;form.setAttribute('aria-busy','true');status.textContent='Enviando seu pedido…';
+    const controller=new AbortController();const timer=setTimeout(()=>controller.abort(),30000);
+    try{
+      const response=await fetch('https://formsubmit.co/ajax/andre.kachan@salestrack.com.br',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(payload),signal:controller.signal});
+      const result=await response.json();
+      if(!response.ok||!(result.success===true||result.success==='true'))throw new Error('Envio não confirmado');
+      window.location.assign(new URL('obrigado.html',location.href).href);
+    }catch(error){
+      status.textContent=error.name==='AbortError'?'O envio demorou e não foi possível confirmar. Seus dados continuam aqui. Aguarde antes de tentar novamente ou fale com a gente pelo WhatsApp.':'Não foi possível confirmar o envio. Seus dados continuam aqui. Tente novamente ou fale com a gente pelo WhatsApp.';
+      button.disabled=false;
+    }finally{clearTimeout(timer);form.removeAttribute('aria-busy');}
+  });
   qa('#name,#need').forEach(i=>i.addEventListener('input',()=>i.setCustomValidity('')));
   qa('[data-close]').forEach(b=>b.addEventListener('click',()=>document.getElementById(b.dataset.close).close()));
   q('#privacy-open')?.addEventListener('click',()=>q('#privacy-dialog').showModal());

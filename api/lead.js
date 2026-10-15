@@ -1,7 +1,7 @@
 // Recebe o formulário do site e envia o pedido por e-mail via Resend.
 const TO = process.env.LEAD_TO || 'andre.kachan@salestrack.com.br';
 const FROM = process.env.LEAD_FROM || 'Site Salestrack <site@salestrack.com.br>';
-const MODES = { aprender: 'Quero aprender', fazer: 'Quero que façam por mim', entender: 'Ainda quero entender melhor' };
+const MODES = { aprender: 'Treinamento de SDRs', fazer: 'Implantação de prospecção B2B', performance: 'Performance de pré-vendas', automacao: 'Automação comercial e IA', entender: 'Avaliar minha operação' };
 
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const clip = (s, n) => String(s ?? '').trim().slice(0, n);
@@ -44,10 +44,10 @@ module.exports = async (req, res) => {
       headers: { Authorization: `Bearer ${process.env.RESEND_API_KEY}`, 'Content-Type': 'application/json' },
       body: JSON.stringify({ from: FROM, to: [TO], reply_to: email, subject: `Novo pedido — ${name} (${mode})`, html, text }),
     });
-    if (!r.ok) { console.error('Resend falhou', r.status, await r.text()); return done(502, { success: false }); }
+    if (!r.ok) { console.error('Resend falhou', r.status); return done(502, { success: false }); }
     return done(200, { success: true });
   } catch (e) {
-    console.error('Erro ao chamar Resend', e);
+    console.error('Erro ao chamar Resend', e.name);
     return done(502, { success: false });
   }
 };

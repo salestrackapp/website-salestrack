@@ -2,6 +2,21 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
   "headers": [
-    { "source": "/assets/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }] }
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, stale-while-revalidate=604800"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/prospeccao-b2b.html",
+      "destination": "/#solucoes-b2b",
+      "permanent": true
+    }
   ]
 }

@@ -15,7 +15,7 @@
   "redirects": [
     {
       "source": "/prospeccao-b2b.html",
-      "destination": "/#solucoes-b2b",
+      "destination": "/#caminhos",
       "permanent": true
     }
   ]

@@ -1,0 +1,823 @@
+{
+  "sourceDeployment": "dpl_7mddScHWgRmbteEduF3xfQ8gfAik",
+  "project": "prj_uVYLzbU1ya97PnVJUj83SaHa1upT",
+  "unchangedFiles": [
+    {
+      "file": "404.html",
+      "sha": "cefeb9399b131e057c7c2b52babefed451921115"
+    },
+    {
+      "file": "academy/educacao-corporativa.html",
+      "sha": "52dccbd08b8e35f812bb915ac1bde3e3f3436f27"
+    },
+    {
+      "file": "academy/onboarding-e-adocao.html",
+      "sha": "13e7277bf1ada6096143354f3eeb8cfec68f75ea"
+    },
+    {
+      "file": "api/capture.js",
+      "sha": "d059556eb6993e5f3c2e9190e9251dbd1adf55db"
+    },
+    {
+      "file": "assets/andre.webp",
+      "sha": "84cfc945fde0ffa878e7d9f7e4d0a32e4836ea6e"
+    },
+    {
+      "file": "assets/brand-white.png",
+      "sha": "8bdf768aa39542349358cb97b2731bc4a57e7ed7"
+    },
+    {
+      "file": "assets/capture-config.js",
+      "sha": "d5ebbf458741a9a34f67378657a6a38efa62ee5d"
+    },
+    {
+      "file": "assets/capture.css",
+      "sha": "091d3ee949222ebaa910035ee8893864b5ea4b21"
+    },
+    {
+      "file": "assets/capture.js",
+      "sha": "7c2410dcf0b46b566eb7fcee0955044f390397c9"
+    },
+    {
+      "file": "assets/commercial-session.webp",
+      "sha": "4ca5ff4af4e7623893000eae759f8e3fc0ff7a8f"
+    },
+    {
+      "file": "assets/equipe.webp",
+      "sha": "e63e3db1336fb2193a504555cece6df70ee7dafe"
+    },
+    {
+      "file": "assets/experience-v2.css",
+      "sha": "bdb4c2d43012b90343469d9b374a7d3283c7300f"
+    },
+    {
+      "file": "assets/experience-v2.js",
+      "sha": "966b7ff2616eaff9ca115320702d653b6353c1e8"
+    },
+    {
+      "file": "assets/favicon-st.ico",
+      "sha": "9146a3b0a593d4c426be5ae4b7e7b8f839aadd2f"
+    },
+    {
+      "file": "assets/favicon-st.png",
+      "sha": "eb1e0e3bd09f3362c0269c3dd65f8196dbea909f"
+    },
+    {
+      "file": "assets/favicon-st.svg",
+      "sha": "ddb2c3bcb8ef19c0beaeaa54b869d1e9b1d7e71b"
+    },
+    {
+      "file": "assets/favicon.svg",
+      "sha": "a8ca574d2d632669a54ab687614e3762cc751913"
+    },
+    {
+      "file": "assets/logo-white.png",
+      "sha": "1bbf31af75920ff680d2763d24791b33e5ef08c6"
+    },
+    {
+      "file": "assets/salestrack-oficial-branco.png",
+      "sha": "1bbf31af75920ff680d2763d24791b33e5ef08c6"
+    },
+    {
+      "file": "assets/logo.png",
+      "sha": "0ea7029cc7492f1eb40847fcdf38d4d681c0fa55"
+    },
+    {
+      "file": "assets/montserrat.ttf",
+      "sha": "071f7ef85781d3df3e9611d8a25fb677e08b9c76"
+    },
+    {
+      "file": "assets/site.css",
+      "sha": "c2e774c86fcac6bb5d5a6e76f097890d99ff70b6"
+    },
+    {
+      "file": "consulting/ia-e-automacao.html",
+      "sha": "04a5df0c0e24eabad74e0a812cacd882cb8bbb18"
+    },
+    {
+      "file": "conteudos.html",
+      "sha": "0836774912bdea0d913abb4ad6f16b1a5f9069aa"
+    },
+    {
+      "file": "conteudos/academy.html",
+      "sha": "80574ff97d7f8512b818f7b89befad14e83f9027"
+    },
+    {
+      "file": "conteudos/academy/avaliar-aplicacao-do-aprendizado.html",
+      "sha": "4ea3d71f9ece6ced0ba52ae1146e0821c5152d43"
+    },
+    {
+      "file": "conteudos/academy/chatgpt-na-rotina-com-criterio.html",
+      "sha": "4fdb67150176de086123e07512f655510365823a"
+    },
+    {
+      "file": "conteudos/academy/claude-para-leitura-de-documentos.html",
+      "sha": "523057293bc79a3f2b1a44e0add40859a2ee4fee"
+    },
+    {
+      "file": "conteudos/academy/confianca-e-adocao-de-ia.html",
+      "sha": "3c38ea519fa46d92610d8845419ab63d5fe0fc59"
+    },
+    {
+      "file": "conteudos/academy/do-manual-ao-curso.html",
+      "sha": "baae9db6026132d3d054357dd3d349a60c683978"
+    },
+    {
+      "file": "conteudos/academy/formacao-comercial-baseada-em-conversas.html",
+      "sha": "949f9e69ec375019612cc2d4f76e8976ce337e19"
+    },
+    {
+      "file": "conteudos/academy/ia-para-gestores.html",
+      "sha": "623b0ce8d855e73deee388834b376f4ac47ecb09"
+    },
+    {
+      "file": "conteudos/academy/microlearning-com-proposito.html",
+      "sha": "0230dcbd41ea5d49baf9a95240925de3e565ddd9"
+    },
+    {
+      "file": "conteudos/academy/onboarding-de-clientes.html",
+      "sha": "445fbcee4b32b0b3c3ba635265cd22987599741e"
+    },
+    {
+      "file": "conteudos/academy/onboarding-de-colaboradores.html",
+      "sha": "630fb4b3d1594e9ca72ed4e363a2f52809206e7b"
+    },
+    {
+      "file": "conteudos/academy/playbook-que-ajuda-na-hora-do-trabalho.html",
+      "sha": "944c008a28974dc5639271a749892b7ccfb0fb13"
+    },
+    {
+      "file": "conteudos/academy/pratica-guiada-no-treinamento.html",
+      "sha": "88e232b6c570bd5a1dda06881d7e29380540bc0f"
+    },
+    {
+      "file": "conteudos/academy/reforco-por-email-e-whatsapp.html",
+      "sha": "bc987c19715d78fc2153ff563cae3f3c1ded39fb"
+    },
+    {
+      "file": "conteudos/academy/treinamento-que-muda-o-trabalho.html",
+      "sha": "9f30e5a72860f2d22a2ba739401c84edf12bbf82"
+    },
+    {
+      "file": "conteudos/academy/treinar-atendimento-para-situacoes-reais.html",
+      "sha": "4d0d30bacda62b599683b90aac5c0243ba382076"
+    },
+    {
+      "file": "conteudos/consulting.html",
+      "sha": "3a7135c4f80d2252ab4cbc55557f0fbd36c83a52"
+    },
+    {
+      "file": "conteudos/consulting/agentes-de-atendimento-com-limites-claros.html",
+      "sha": "279ead9daf3735976be0fa03f01e1535a5709f47"
+    },
+    {
+      "file": "conteudos/consulting/assistente-interno-conhecimento-confiavel.html",
+      "sha": "687d52781075e7d8165133316a15a06eb33a74e3"
+    },
+    {
+      "file": "conteudos/consulting/automacao-de-email-com-contexto.html",
+      "sha": "6dd6fe0f9869de65c23c3ae3996539021c5e98bd"
+    },
+    {
+      "file": "conteudos/consulting/avaliar-respostas-de-ia-alem-do-texto-bonito.html",
+      "sha": "15727237d97fdd62588e9d29bbb59573e6906570"
+    },
+    {
+      "file": "conteudos/consulting/crm-que-a-equipe-realmente-usa.html",
+      "sha": "e9aa6ee37b8dbaddd9dab148f7904c5f9a74a332"
+    },
+    {
+      "file": "conteudos/consulting/custo-de-manter-solucoes-digitais.html",
+      "sha": "e75b176e6486f40927d6a9ee7043cfef1202ef48"
+    },
+    {
+      "file": "conteudos/consulting/escolher-ferramentas-sem-comprar-complexidade.html",
+      "sha": "043597fdc5f6fe5835b2806d4993403f016575fb"
+    },
+    {
+      "file": "conteudos/consulting/indicadores-que-ajudam-a-operacao.html",
+      "sha": "aaf5de8f6d795260be35c872f04cfa5812507037"
+    },
+    {
+      "file": "conteudos/consulting/integrar-informacoes-sem-multiplicar-erros.html",
+      "sha": "c06389ae274c785f695291642eb425919feb233d"
+    },
+    {
+      "file": "conteudos/consulting/piloto-que-prepara-entrada-em-operacao.html",
+      "sha": "a8751c281af4adab1804c2c3c71cafc27f1e98b4"
+    },
+    {
+      "file": "conteudos/consulting/primeiro-caso-de-ia-com-valor.html",
+      "sha": "2f32515a9c526b329e79cb4c9d8054b87237e02f"
+    },
+    {
+      "file": "conteudos/consulting/prioridades-digitais-que-cabem-na-operacao.html",
+      "sha": "3c42ca038a66b96ecc28e919f965f86ffd1c6d12"
+    },
+    {
+      "file": "conteudos/consulting/processos-claros-sem-burocracia.html",
+      "sha": "a39417600f3f32794a07baa1103379356a8e5f93"
+    },
+    {
+      "file": "conteudos/consulting/retrabalho-onde-a-rotina-perde-tempo.html",
+      "sha": "5a072c1fb91bbdc1cfe3f1ddd18b4f3e580b0bff"
+    },
+    {
+      "file": "conteudos/consulting/whatsapp-da-conversa-ao-atendimento.html",
+      "sha": "7f10749debce04f0927a2fea04834e4e5e3a4d2b"
+    },
+    {
+      "file": "conteudos/studio.html",
+      "sha": "c0df01d52526bcfdcc5d014801ed61dd3a1bd064"
+    },
+    {
+      "file": "conteudos/studio/adaptar-conteudo-diferentes-formatos.html",
+      "sha": "281f5832a3202b9ce8c1a441db8ed3777ded836f"
+    },
+    {
+      "file": "conteudos/studio/aplicacao-interna-escopo-enxuto.html",
+      "sha": "a6c329d474055e8a028ef60e95466bcabfa34447"
+    },
+    {
+      "file": "conteudos/studio/apresentacao-comercial-que-conduz.html",
+      "sha": "c3a98bc21ec13a62184be671823386791b0d0324"
+    },
+    {
+      "file": "conteudos/studio/briefing-video-que-orienta.html",
+      "sha": "d66ac0d2202a3f19ca932f56a3612e47590f2c6e"
+    },
+    {
+      "file": "conteudos/studio/campanhas-com-ia-direcao-criativa.html",
+      "sha": "d9597067cbf5efd293aec7c259fc2e3559e804ef"
+    },
+    {
+      "file": "conteudos/studio/consistencia-visual-materiais.html",
+      "sha": "7ee96f176f8e8a24602017611f6f6c85de2ac860"
+    },
+    {
+      "file": "conteudos/studio/conteudo-lancamento-oferta.html",
+      "sha": "bd484d4ebec04be179026be58270baaf166e5107"
+    },
+    {
+      "file": "conteudos/studio/email-que-complementa-jornada.html",
+      "sha": "32b7c6f2f0891a7fa470a8898970d2663dcc95e7"
+    },
+    {
+      "file": "conteudos/studio/intranet-que-as-pessoas-usam.html",
+      "sha": "1d3491ebc8a9edb9d36314088eb6b37a1b12ccb5"
+    },
+    {
+      "file": "conteudos/studio/landing-page-perguntas-do-cliente.html",
+      "sha": "05df017ea4b3d3aa0c6b6385f5ab38ab537722bf"
+    },
+    {
+      "file": "conteudos/studio/portal-clientes-utilidade.html",
+      "sha": "fadb2d0c8cc9432ba5898b67663cb3b373e6170c"
+    },
+    {
+      "file": "conteudos/studio/producao-digital-continua.html",
+      "sha": "b423292ea94698e33b45452ad1378b32fb2e96f5"
+    },
+    {
+      "file": "conteudos/studio/relatorios-que-apoiam-decisoes.html",
+      "sha": "82a9868715d62edcffb4addda36522189301d57f"
+    },
+    {
+      "file": "conteudos/studio/roteiro-video-estrutura-mensagem.html",
+      "sha": "b29d97f1cdce6b964813e92ada5342a8d1e6308e"
+    },
+    {
+      "file": "conteudos/studio/site-b2b-arquitetura-servicos.html",
+      "sha": "27de121a5ddfa230353dfbd32182f16a51c232ea"
+    },
+    {
+      "file": "lib/config.js",
+      "sha": "e9efca511608bac1b6938fc44401f17b404aebf7"
+    },
+    {
+      "file": "lib/email.js",
+      "sha": "ccb434015859542f3305471a896225eeab54935b"
+    },
+    {
+      "file": "materiais/briefing-criativo.pdf",
+      "sha": "6d44d4cdf5928ad074406e1ba3e38cb6425c936d"
+    },
+    {
+      "file": "materiais/briefing-criativo.webp",
+      "sha": "159d884a06aff364ef889997623b28ca329747d5"
+    },
+    {
+      "file": "materiais/briefing-treinamento.pdf",
+      "sha": "251c39dc8fa1ea393f9c47ef027f9f908600021c"
+    },
+    {
+      "file": "materiais/briefing-treinamento.webp",
+      "sha": "1c7288797f0931d9059c9e4df78aed436b2809ec"
+    },
+    {
+      "file": "materiais/briefing-video.pdf",
+      "sha": "304f9d79a9e50e58419f80ac7d9b744c2e8ebba2"
+    },
+    {
+      "file": "materiais/briefing-video.webp",
+      "sha": "23dbe0ed3c99c85dc6ffb1de5e23d4cbc5091521"
+    },
+    {
+      "file": "materiais/checklist-materiais.pdf",
+      "sha": "10fe17ab41264bd97699f8f3e49dc9e1feb6fe01"
+    },
+    {
+      "file": "materiais/checklist-materiais.webp",
+      "sha": "5046fb3aae0806726ae6c0c9aec071e6f358d661"
+    },
+    {
+      "file": "materiais/conhecimento-em-trilha.pdf",
+      "sha": "7d529ca6b0ed95eb670ebcbc8f23ad8722953c1b"
+    },
+    {
+      "file": "materiais/conhecimento-em-trilha.webp",
+      "sha": "6c6c61395961222090424652de51cf366880e048"
+    },
+    {
+      "file": "materiais/editorial/academy-avaliar-aplicacao-do-aprendizado.pdf",
+      "sha": "8de0233daf38e9a66b0ac114c9ea91b0e9756491"
+    },
+    {
+      "file": "materiais/editorial/academy-avaliar-aplicacao-do-aprendizado.webp",
+      "sha": "5567e8100661b81b26ec648fafb906dad971ec9f"
+    },
+    {
+      "file": "materiais/editorial/academy-chatgpt-na-rotina-com-criterio.pdf",
+      "sha": "1ee74997c5d46912678943c282f9240ac5c1a090"
+    },
+    {
+      "file": "materiais/editorial/academy-chatgpt-na-rotina-com-criterio.webp",
+      "sha": "53ee9a314474d8f61d2eb935bee98d9d4d9b34f6"
+    },
+    {
+      "file": "materiais/editorial/academy-claude-para-leitura-de-documentos.pdf",
+      "sha": "b8229dcdd171937a1cf69a99d91c159cccac4c08"
+    },
+    {
+      "file": "materiais/editorial/academy-claude-para-leitura-de-documentos.webp",
+      "sha": "4078f8d89f52a6f9445d4e832c2c9f75f6d683e2"
+    },
+    {
+      "file": "materiais/editorial/academy-confianca-e-adocao-de-ia.pdf",
+      "sha": "c3a3843a1661681ad265cae4c642aa3aca6797fb"
+    },
+    {
+      "file": "materiais/editorial/academy-confianca-e-adocao-de-ia.webp",
+      "sha": "7c0283b2fa8002cdbde8d4b82a4f4df03fd93bd6"
+    },
+    {
+      "file": "materiais/editorial/academy-do-manual-ao-curso.pdf",
+      "sha": "77eccad985fc5f5b51ccb54655d8c4e7c8585ab2"
+    },
+    {
+      "file": "materiais/editorial/academy-do-manual-ao-curso.webp",
+      "sha": "9ea52232df0111cebb867a3b4221cbb62091fa8f"
+    },
+    {
+      "file": "materiais/editorial/academy-formacao-comercial-baseada-em-conversas.pdf",
+      "sha": "ba3183e1e2a4f8ac91d91a4d03d1ce7344b23642"
+    },
+    {
+      "file": "materiais/editorial/academy-formacao-comercial-baseada-em-conversas.webp",
+      "sha": "52de7a92e663c65a251c81c826652b4e170cddec"
+    },
+    {
+      "file": "materiais/editorial/academy-ia-para-gestores.pdf",
+      "sha": "f5206514538693414292dd5ee2c21f0a7eab9414"
+    },
+    {
+      "file": "materiais/editorial/academy-ia-para-gestores.webp",
+      "sha": "024d16b01a1000cc36733752c517e55cf2ec7018"
+    },
+    {
+      "file": "materiais/editorial/academy-microlearning-com-proposito.pdf",
+      "sha": "05d1bf6c3450ade28a1cd1b9232fa3cc9fc07f10"
+    },
+    {
+      "file": "materiais/editorial/academy-microlearning-com-proposito.webp",
+      "sha": "958cf2952d6a18ae17b5aa74e226312bd27ed35f"
+    },
+    {
+      "file": "materiais/editorial/academy-onboarding-de-clientes.pdf",
+      "sha": "f93476356849cd2341327cc81facf31a71639374"
+    },
+    {
+      "file": "materiais/editorial/academy-onboarding-de-clientes.webp",
+      "sha": "fab99227e5ddce0b041ee7867be4089b912f9149"
+    },
+    {
+      "file": "materiais/editorial/academy-onboarding-de-colaboradores.pdf",
+      "sha": "5107bb95919ec05b7ca8821781e14c91a75dab85"
+    },
+    {
+      "file": "materiais/editorial/academy-onboarding-de-colaboradores.webp",
+      "sha": "69916811d7bcfd272a3260b88e545e96881dc21f"
+    },
+    {
+      "file": "materiais/editorial/academy-playbook-que-ajuda-na-hora-do-trabalho.pdf",
+      "sha": "a86a06e5f23105f81dd76d6be27c24b9f22c9e04"
+    },
+    {
+      "file": "materiais/editorial/academy-playbook-que-ajuda-na-hora-do-trabalho.webp",
+      "sha": "6a892317df719fb0ee5e70d785db62f24d6800ed"
+    },
+    {
+      "file": "materiais/editorial/academy-pratica-guiada-no-treinamento.pdf",
+      "sha": "562fca43cab09aa7404a86ee29d4328246e9dcd3"
+    },
+    {
+      "file": "materiais/editorial/academy-pratica-guiada-no-treinamento.webp",
+      "sha": "34475ad886bd57cbcd4da1c6eba9155f63235119"
+    },
+    {
+      "file": "materiais/editorial/academy-reforco-por-email-e-whatsapp.pdf",
+      "sha": "292e2cb4174b8077e4a328ef5464377e7ad4928e"
+    },
+    {
+      "file": "materiais/editorial/academy-reforco-por-email-e-whatsapp.webp",
+      "sha": "72bc441fb00137c9bf6ca060b70ff948fbec1edf"
+    },
+    {
+      "file": "materiais/editorial/academy-treinamento-que-muda-o-trabalho.pdf",
+      "sha": "1850d97aa2ec8f5864dc2b3832a5c89b2ee8a275"
+    },
+    {
+      "file": "materiais/editorial/academy-treinamento-que-muda-o-trabalho.webp",
+      "sha": "b4f1ec602bd8e4769b6e36155e49758a58e01be2"
+    },
+    {
+      "file": "materiais/editorial/academy-treinar-atendimento-para-situacoes-reais.pdf",
+      "sha": "f6080f48f9fe61148ffa1369a285c2079f3b60d1"
+    },
+    {
+      "file": "materiais/editorial/academy-treinar-atendimento-para-situacoes-reais.webp",
+      "sha": "276736111f170cc259c5dc3c7069fb081da531ec"
+    },
+    {
+      "file": "materiais/editorial/consulting-agentes-de-atendimento-com-limites-claros.pdf",
+      "sha": "d9870a6d362d9d81a7f1bd0990da772e9236613d"
+    },
+    {
+      "file": "materiais/editorial/consulting-agentes-de-atendimento-com-limites-claros.webp",
+      "sha": "4f9d7112a98f8b6d1a038ad46af329ef9b6431de"
+    },
+    {
+      "file": "materiais/editorial/consulting-assistente-interno-conhecimento-confiavel.pdf",
+      "sha": "fca7aee604e3ade531de6274b3e72d9ffaf8fae9"
+    },
+    {
+      "file": "materiais/editorial/consulting-assistente-interno-conhecimento-confiavel.webp",
+      "sha": "106cc4242523a6855aaa50aa1935c5801adcd05c"
+    },
+    {
+      "file": "materiais/editorial/consulting-automacao-de-email-com-contexto.pdf",
+      "sha": "4e2174e4d0a04eb2b239ece939ec42edc498460d"
+    },
+    {
+      "file": "materiais/editorial/consulting-automacao-de-email-com-contexto.webp",
+      "sha": "3f761b027cc09267ab4c8be2f174df6bcdf3daa2"
+    },
+    {
+      "file": "materiais/editorial/consulting-avaliar-respostas-de-ia-alem-do-texto-bonito.pdf",
+      "sha": "6b5cb3725552d8d54de130f15da7e518a5fe03a3"
+    },
+    {
+      "file": "materiais/editorial/consulting-avaliar-respostas-de-ia-alem-do-texto-bonito.webp",
+      "sha": "a9d36949c7f34cf04192dcde5516c0111764b9de"
+    },
+    {
+      "file": "materiais/editorial/consulting-crm-que-a-equipe-realmente-usa.pdf",
+      "sha": "cdfb19c97d9fee3be04fe90cbfc28be59b9ee14b"
+    },
+    {
+      "file": "materiais/editorial/consulting-crm-que-a-equipe-realmente-usa.webp",
+      "sha": "1efb144d017cbdd1ec2c629c4bc956c2c396737a"
+    },
+    {
+      "file": "materiais/editorial/consulting-custo-de-manter-solucoes-digitais.pdf",
+      "sha": "47b0f7b80c4d283f296fa5729a88bdc27b582f9f"
+    },
+    {
+      "file": "materiais/editorial/consulting-custo-de-manter-solucoes-digitais.webp",
+      "sha": "1b1ab47b0b674822f9a2f41cfbedaabc542ecc40"
+    },
+    {
+      "file": "materiais/editorial/consulting-escolher-ferramentas-sem-comprar-complexidade.pdf",
+      "sha": "02dd3c6f54038900fa5078e2d725ef97811681f4"
+    },
+    {
+      "file": "materiais/editorial/consulting-escolher-ferramentas-sem-comprar-complexidade.webp",
+      "sha": "d83dba977db4e9823e8320bdeefedfec8ec1ef3d"
+    },
+    {
+      "file": "materiais/editorial/consulting-indicadores-que-ajudam-a-operacao.pdf",
+      "sha": "cd9f3a587be47e2c9ee794b1e156022af805a015"
+    },
+    {
+      "file": "materiais/editorial/consulting-indicadores-que-ajudam-a-operacao.webp",
+      "sha": "d903d81cc133075149fffd071e5273ad1fbf6c01"
+    },
+    {
+      "file": "materiais/editorial/consulting-integrar-informacoes-sem-multiplicar-erros.pdf",
+      "sha": "cfe68c342bef0f482508fb12de783e065191ccc4"
+    },
+    {
+      "file": "materiais/editorial/consulting-integrar-informacoes-sem-multiplicar-erros.webp",
+      "sha": "ca5c878a462a2b5d6d21edf37c2edff352035056"
+    },
+    {
+      "file": "materiais/editorial/consulting-piloto-que-prepara-entrada-em-operacao.pdf",
+      "sha": "b4ba276654674ff7a4247dfb6159f200ca7b5439"
+    },
+    {
+      "file": "materiais/editorial/consulting-piloto-que-prepara-entrada-em-operacao.webp",
+      "sha": "08aa2f77e3f99b22beb4ebf23236d31bf34928a8"
+    },
+    {
+      "file": "materiais/editorial/consulting-primeiro-caso-de-ia-com-valor.pdf",
+      "sha": "d785c649cab13b378a0977a646cfdace0d60f15c"
+    },
+    {
+      "file": "materiais/editorial/consulting-primeiro-caso-de-ia-com-valor.webp",
+      "sha": "8878b455a453af123ba317a8b3022641229da714"
+    },
+    {
+      "file": "materiais/editorial/consulting-prioridades-digitais-que-cabem-na-operacao.pdf",
+      "sha": "ec8017de82b57ac60b73d6973d2bb7ac9fda4f8d"
+    },
+    {
+      "file": "materiais/editorial/consulting-prioridades-digitais-que-cabem-na-operacao.webp",
+      "sha": "ced29310ade7587dd2fccfa5b97a98246a9efa4a"
+    },
+    {
+      "file": "materiais/editorial/consulting-processos-claros-sem-burocracia.pdf",
+      "sha": "58e92450de09bb4542a6a0e2abadc838e472b6d8"
+    },
+    {
+      "file": "materiais/editorial/consulting-processos-claros-sem-burocracia.webp",
+      "sha": "c96d32f8c6cce7bb7b54ed8c7e23ed4728a1ac0f"
+    },
+    {
+      "file": "materiais/editorial/consulting-retrabalho-onde-a-rotina-perde-tempo.pdf",
+      "sha": "3eba2939b6dd5da05da56c4cd5f1bb1f9f088bf5"
+    },
+    {
+      "file": "materiais/editorial/consulting-retrabalho-onde-a-rotina-perde-tempo.webp",
+      "sha": "e4ac7f5323c89d2daa3c484d94567ae53057a443"
+    },
+    {
+      "file": "materiais/editorial/consulting-whatsapp-da-conversa-ao-atendimento.pdf",
+      "sha": "82f5ecedeffed82f4055bd9f85d1e118a44df255"
+    },
+    {
+      "file": "materiais/editorial/consulting-whatsapp-da-conversa-ao-atendimento.webp",
+      "sha": "7766fc43cb9e9116366389142e2611544a0990fd"
+    },
+    {
+      "file": "materiais/editorial/studio-adaptar-conteudo-diferentes-formatos.pdf",
+      "sha": "a576dd24eb7e33f7bbecfea8a5854df2fd57a63b"
+    },
+    {
+      "file": "materiais/editorial/studio-adaptar-conteudo-diferentes-formatos.webp",
+      "sha": "33033906dce560190a318ab2d0d834d39b82bd12"
+    },
+    {
+      "file": "materiais/editorial/studio-aplicacao-interna-escopo-enxuto.pdf",
+      "sha": "55a9ce8fdaa60d38773e07ca0a087e6c82d0ccb3"
+    },
+    {
+      "file": "materiais/editorial/studio-aplicacao-interna-escopo-enxuto.webp",
+      "sha": "d5bfbcec44cccfb832b461fdcd5014ec22bdaddc"
+    },
+    {
+      "file": "materiais/editorial/studio-apresentacao-comercial-que-conduz.pdf",
+      "sha": "af7e7b57e7487d75b9aedaa064bcce2aa7beafda"
+    },
+    {
+      "file": "materiais/editorial/studio-apresentacao-comercial-que-conduz.webp",
+      "sha": "a9ba878d918f8342d7fb191add6f2c3874756dd0"
+    },
+    {
+      "file": "materiais/editorial/studio-briefing-video-que-orienta.pdf",
+      "sha": "7e8d11904a5de9c3e09394d7ae8fb97d017d9ef1"
+    },
+    {
+      "file": "materiais/editorial/studio-briefing-video-que-orienta.webp",
+      "sha": "c9996c25445fb6f0bbb9409543bc869c88b9232d"
+    },
+    {
+      "file": "materiais/editorial/studio-campanhas-com-ia-direcao-criativa.pdf",
+      "sha": "151b5797e65bbe0832a7889f401925483b8ec0cf"
+    },
+    {
+      "file": "materiais/editorial/studio-campanhas-com-ia-direcao-criativa.webp",
+      "sha": "f9a209dedd7bd7776e30559ff5c0043726a24a06"
+    },
+    {
+      "file": "materiais/editorial/studio-consistencia-visual-materiais.pdf",
+      "sha": "eee8961a55dddbafab936a2719973cb7de32adee"
+    },
+    {
+      "file": "materiais/editorial/studio-consistencia-visual-materiais.webp",
+      "sha": "c9aa18b42ead9b72fc47632c39b6c3d128cbe76b"
+    },
+    {
+      "file": "materiais/editorial/studio-conteudo-lancamento-oferta.pdf",
+      "sha": "ba83f9b6f78484cac485ba077b429b54d9cd8130"
+    },
+    {
+      "file": "materiais/editorial/studio-conteudo-lancamento-oferta.webp",
+      "sha": "b8a29a4a2807964c16ce598d762b689532381a73"
+    },
+    {
+      "file": "materiais/editorial/studio-email-que-complementa-jornada.pdf",
+      "sha": "50fa71a91b7015ead6104ce32efc798f14bb2b8a"
+    },
+    {
+      "file": "materiais/editorial/studio-email-que-complementa-jornada.webp",
+      "sha": "4156d777499e828546770d00b43c931f98032c1b"
+    },
+    {
+      "file": "materiais/editorial/studio-intranet-que-as-pessoas-usam.pdf",
+      "sha": "71f725dbed778709fd248d7f82434423e9776a60"
+    },
+    {
+      "file": "materiais/editorial/studio-intranet-que-as-pessoas-usam.webp",
+      "sha": "dcdc849393c31e1a50cc634ac2edad1d63ddac52"
+    },
+    {
+      "file": "materiais/editorial/studio-landing-page-perguntas-do-cliente.pdf",
+      "sha": "3576caf9f16e0ea0ad93765cfb6db7bfa5ab0b64"
+    },
+    {
+      "file": "materiais/editorial/studio-landing-page-perguntas-do-cliente.webp",
+      "sha": "952efb0afca974e1d0df43d69c523591d82695ef"
+    },
+    {
+      "file": "materiais/editorial/studio-portal-clientes-utilidade.pdf",
+      "sha": "138fc89e8c3a90b5b67b9437ee32abba921e4f0c"
+    },
+    {
+      "file": "materiais/editorial/studio-portal-clientes-utilidade.webp",
+      "sha": "7f120e8229d3cb4a93bb04f50cf34051fe4df112"
+    },
+    {
+      "file": "materiais/editorial/studio-producao-digital-continua.pdf",
+      "sha": "b3e04b82ca350ee66863b4c45e118aa2f0e9719a"
+    },
+    {
+      "file": "materiais/editorial/studio-producao-digital-continua.webp",
+      "sha": "79abb53070dd32242584c501e6f3641ba38832fa"
+    },
+    {
+      "file": "materiais/editorial/studio-relatorios-que-apoiam-decisoes.pdf",
+      "sha": "8edd30f8cd223d0e498052f02e0b79fb8412e8cf"
+    },
+    {
+      "file": "materiais/editorial/studio-relatorios-que-apoiam-decisoes.webp",
+      "sha": "79c375aec5db3c2fb9774392080d8254a5b04fb2"
+    },
+    {
+      "file": "materiais/editorial/studio-roteiro-video-estrutura-mensagem.pdf",
+      "sha": "1254337f1549363bba952c4a47494801cf9f8ac1"
+    },
+    {
+      "file": "materiais/editorial/studio-roteiro-video-estrutura-mensagem.webp",
+      "sha": "78c7b74206a36fb1ba38531f0c55a4290a404136"
+    },
+    {
+      "file": "materiais/editorial/studio-site-b2b-arquitetura-servicos.pdf",
+      "sha": "c884075d32acba7be80c27e11a34778df9ff6071"
+    },
+    {
+      "file": "materiais/editorial/studio-site-b2b-arquitetura-servicos.webp",
+      "sha": "315ba48e2c87e476b584ff07c88069f5964ea764"
+    },
+    {
+      "file": "materiais/escopo-sistema.pdf",
+      "sha": "7966d4c2f7f2188c41470022a31dfde8f3347701"
+    },
+    {
+      "file": "materiais/escopo-sistema.webp",
+      "sha": "469b974a51e3d14bd51a2df4f83e2173e7176513"
+    },
+    {
+      "file": "materiais/guia-primeiro-projeto.pdf",
+      "sha": "21cc0143c34a9b7c9e6cd8d81d8f964b82822374"
+    },
+    {
+      "file": "materiais/guia-primeiro-projeto.webp",
+      "sha": "c62dd138d67865f960533f12523c2f40b5116cd0"
+    },
+    {
+      "file": "materiais/jornada-onboarding.pdf",
+      "sha": "0713fa10dedd766116d8576528df936befccb058"
+    },
+    {
+      "file": "materiais/jornada-onboarding.webp",
+      "sha": "865957768442643508b27a945de556fdf449fd60"
+    },
+    {
+      "file": "materiais/mapa-oportunidades.pdf",
+      "sha": "2c9115b8a50fbe3aed42681a58eb494359744062"
+    },
+    {
+      "file": "materiais/mapa-oportunidades.webp",
+      "sha": "413a95fad2284b6916e1af5af0b0794d5b620bbe"
+    },
+    {
+      "file": "materiais/mapa-processo.pdf",
+      "sha": "973b6784807dc70ec965d000c7b55d529b9e196d"
+    },
+    {
+      "file": "materiais/mapa-processo.webp",
+      "sha": "e1baa73311ac70a44d9d953fab948d71281b2b35"
+    },
+    {
+      "file": "materiais/plano-aprendizagem.pdf",
+      "sha": "f1acde0d2d76bd17259c59794d4193dc41359e4c"
+    },
+    {
+      "file": "materiais/plano-aprendizagem.webp",
+      "sha": "9ef10ed0ed97c255531988e64e7a517c779ce3f2"
+    },
+    {
+      "file": "materiais/plano-implantacao.pdf",
+      "sha": "85a926ef5a68084fa6ea9705305089347038d9af"
+    },
+    {
+      "file": "materiais/plano-implantacao.webp",
+      "sha": "cac0be7e4f5bc945598aac42f9f9089befeaff56"
+    },
+    {
+      "file": "materiais/primeiro-projeto-ia.pdf",
+      "sha": "7cec2c280a8aee31677f30c1066f0ef5c3473781"
+    },
+    {
+      "file": "materiais/primeiro-projeto-ia.webp",
+      "sha": "50c0b2a90b11464972cdb28653497747515fb5d0"
+    },
+    {
+      "file": "materiais/roteiro-site.pdf",
+      "sha": "3fb1c4fe1a0d94c8c7bbd5476349d66869d30251"
+    },
+    {
+      "file": "materiais/roteiro-site.webp",
+      "sha": "8dbe6d2922fa62cd7d15af04f9fda0a725c7e108"
+    },
+    {
+      "file": "package.json",
+      "sha": "00b01dcf998309c5190e27e7e2956be2123b93d5"
+    },
+    {
+      "file": "privacidade.html",
+      "sha": "e375e738ca957e92992709a5d154d87681909ba2"
+    },
+    {
+      "file": "produtos.html",
+      "sha": "0dc55044e4c5bc654c3350d99cf4a91e1cf10204"
+    },
+    {
+      "file": "produtos/my-track.html",
+      "sha": "2e65e8da7ccb34529e2d69116cf355a86f501182"
+    },
+    {
+      "file": "robots.txt",
+      "sha": "75c8798f3bd202e08af0cbb0fda95cb6898b0246"
+    },
+    {
+      "file": "sobre.html",
+      "sha": "01eaaa41048602168f71d742966feb56a229ab56"
+    },
+    {
+      "file": "studio/design-e-materiais.html",
+      "sha": "4f5067fbb0de3ed803d51befdb988cd3228948e9"
+    },
+    {
+      "file": "studio/plataformas-e-sistemas.html",
+      "sha": "4d5b1d2ff487b5fc2328c47cf64ec937d0714940"
+    },
+    {
+      "file": "studio/sites-e-landing-pages.html",
+      "sha": "67cd67d105bfbb89218e7f7a22126d9d35dd1659"
+    },
+    {
+      "file": "studio/videos-e-campanhas.html",
+      "sha": "ac4b1acdc00d84f9ed84d088d424aec382a3bd11"
+    },
+    {
+      "file": "tecnologias.html",
+      "sha": "d6d23463bc702cd68fc2535d3e7ef4b45e6e85bf"
+    },
+    {
+      "file": "vercel.json",
+      "sha": "da4879902f1ced6c659e79d28a3b33f99cfd943a"
+    }
+  ],
+  "note": "Overlay on the live deployment. Old repository root is not the production source. Retain all referenced source files, including API and config."
+}
